@@ -1,6 +1,227 @@
-:root{--ink:#18243a;--muted:#738097;--line:#e8edf4;--bg:#f5f7fb;--blue:#315be8;--blue-dark:#2347c8;--navy:#17233b;--green:#16865b;--amber:#b7791f;--red:#c33d4d;--shadow:0 8px 30px rgba(31,49,83,.045)}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px}button,input,select{font:inherit}button{cursor:pointer}.app-shell{min-height:100vh}.sidebar{position:fixed;inset:0 auto 0 0;width:246px;background:var(--navy);color:#e9efff;padding:25px 15px 17px;display:flex;flex-direction:column;z-index:5}.brand{display:flex;align-items:center;gap:11px;padding:0 10px 34px}.brand-mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(140deg,#6e8dff,#315be8);display:grid;place-items:center;color:white;font-size:22px;font-weight:800;box-shadow:0 6px 16px #315be84c}.brand strong{display:block;font-size:18px;letter-spacing:-.5px}.brand span{display:block;color:#98a7c7;font-size:9px;letter-spacing:1.5px;margin-top:3px}.workspace-label{font-size:10px;color:#7e8cab;letter-spacing:1.5px;padding:0 12px 12px}.nav{display:grid;gap:5px}.nav-item{height:43px;border:0;border-radius:9px;background:transparent;color:#b9c5dd;text-align:left;padding:0 12px;display:flex;align-items:center;gap:12px;font-weight:550}.nav-item>span:first-child{font-size:17px;width:19px;text-align:center}.nav-item:hover,.nav-item.active{background:#293956;color:white}.nav-item.active{box-shadow:inset 3px 0 #7894ff}.nav-count{margin-left:auto;border-radius:6px;background:#3b4d6d;color:#dbe5ff;padding:3px 7px;font-size:10px}.alert-count{background:#603c4c;color:#ffb8c0}.sidebar-bottom{margin-top:auto}.demo-note{background:#202f4a;border:1px solid #344461;border-radius:10px;padding:12px;display:flex;gap:9px;align-items:flex-start;margin:0 2px 17px}.demo-dot,.live-dot{width:7px;height:7px;border-radius:50%;background:#38bd8c;display:inline-block;flex-shrink:0}.demo-dot{margin-top:5px}.demo-note strong{font-size:11px}.demo-note p{font-size:10px;color:#9eacc7;margin:4px 0 0}.profile{border-top:1px solid #34415b;padding:17px 4px 0;display:flex;align-items:center;gap:9px}.avatar,.top-avatar{width:32px;height:32px;display:grid;place-items:center;border-radius:10px;background:#dce5ff;color:#315be8;font-weight:750;font-size:10px}.profile strong{display:block;font-size:10px}.profile span{display:block;color:#91a0bd;font-size:9px;margin-top:3px}.profile-menu{margin-left:auto;letter-spacing:1px}.main{margin-left:246px;min-height:100vh}.topbar{height:66px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 35px}.breadcrumb{font-size:12px;color:#8b97aa}.breadcrumb span{padding:0 9px;color:#c1c9d6}.breadcrumb strong{color:#39465d;font-weight:650}.top-actions{display:flex;align-items:center;gap:13px}.system-status{font-size:11px;color:#738097}.top-actions .live-dot{width:6px;height:6px}.icon-button{position:relative;border:1px solid var(--line);background:white;color:#5c6a81;border-radius:9px;width:34px;height:34px;font-size:18px}.icon-button i{position:absolute;width:6px;height:6px;background:#e05262;border-radius:50%;right:6px;top:5px}.top-avatar{border-radius:50%;width:31px;height:31px}.mobile-menu{display:none}.page{display:none;padding:30px 35px 20px;max-width:1700px;margin:0 auto}.page.active-page{display:block}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:23px}.eyebrow{font-size:9px;letter-spacing:1.55px;color:#8996ab;font-weight:750;margin-bottom:9px}h1{font-size:27px;letter-spacing:-.9px;margin:0;font-weight:730;color:#18243a}h2{font-size:14px;margin:0;font-weight:700;letter-spacing:-.2px}.subheading{font-size:12px;color:#8490a4;margin:8px 0 0}.primary-button,.secondary-button{height:38px;border-radius:8px;padding:0 14px;font-size:11px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}.primary-button{background:var(--blue);border:1px solid var(--blue);color:white;box-shadow:0 3px 7px #315be821}.primary-button:hover{background:var(--blue-dark)}.primary-button span{font-size:17px;font-weight:400}.secondary-button{background:#fff;border:1px solid #dfe5ee;color:#53627b}.secondary-button:hover{background:#f8faff}.stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-bottom:19px}.stat-card,.panel{background:white;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}.stat-card{padding:17px 18px 15px;min-height:122px}.stat-top{display:flex;align-items:center;justify-content:space-between;color:#77849a;font-size:11px;font-weight:550}.stat-icon{width:31px;height:31px;border-radius:9px;display:grid;place-items:center;font-size:15px}.blue{background:#edf1ff;color:#4263dd}.amber{background:#fff4df;color:#bd7b21}.green{background:#e3f8ee;color:#16865b}.red{background:#ffebee;color:#c33d4d}.stat-value{font-size:28px;font-weight:760;letter-spacing:-1px;margin-top:7px}.stat-foot{font-size:10px;color:#97a1b2;margin-top:5px}.tiny-dot{display:inline-block;width:5px;height:5px;border-radius:50%;margin:0 5px 1px 0}.amber-dot{background:#e3a13c}.content-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(260px,.85fr);gap:17px;margin-bottom:18px}.panel{padding:18px 18px 0;min-width:0}.panel-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:17px}.panel-heading p{font-size:10px;color:#929daf;margin:5px 0 0}.text-button{border:0;background:transparent;color:var(--blue);font-size:10px;font-weight:700;padding:5px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}.search-box{height:34px;border:1px solid #e5eaf2;border-radius:7px;display:flex;align-items:center;gap:8px;padding:0 10px;flex:1;max-width:300px;color:#94a0b2}.search-box span{font-size:19px}.search-box input{border:0;outline:0;width:100%;min-width:0;color:var(--ink);font-size:10px;background:transparent}.toolbar select{height:34px;border:1px solid #e5eaf2;border-radius:7px;background:white;color:#69768b;padding:0 9px;font-size:10px;outline:none;max-width:175px}.table-wrap{width:100%;overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left;white-space:nowrap}thead th{font-size:8px;letter-spacing:.7px;color:#9aa5b5;font-weight:750;padding:12px 10px;border-bottom:1px solid #edf0f5}tbody td{padding:13px 10px;border-bottom:1px solid #f0f2f6;font-size:10px;color:#6f7b90}tbody tr:last-child td{border-bottom:0}.institution-cell{display:flex;align-items:center;gap:9px;min-width:175px}.institution-icon{width:30px;height:30px;display:grid;place-items:center;flex-shrink:0;border-radius:8px;background:#eff3ff;color:#526ddd;font-size:13px;font-weight:750}.institution-cell strong{display:block;color:#29364d;font-size:10px;font-weight:700;max-width:200px;overflow:hidden;text-overflow:ellipsis}.institution-cell span{display:block;color:#9ba5b4;font-size:9px;margin-top:3px}.id-cell{font-size:9px;color:#7f8ba0}.status-badge{display:inline-flex;align-items:center;gap:5px;border-radius:5px;padding:5px 7px;font-size:9px;font-weight:700}.status-badge:before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor}.status-submitted{color:#99661c;background:#fff4df}.status-under-review{color:#4263ce;background:#edf1ff}.status-changes-required{color:#bc6630;background:#fff0e5}.status-approved{color:#17845c;background:#e4f8ee}.status-rejected{color:#bd3e4c;background:#ffebee}.deadline{font-size:10px;color:#69768b}.deadline.urgent{color:#c33d4d;font-weight:700}.row-action{border:0;background:transparent;color:#5e6e88;font-size:18px;padding:2px 7px}.table-footer{min-height:43px;border-top:1px solid #eef1f6;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:9px;color:#9aa4b3}.alerts-panel{padding-bottom:15px}.pill-count{min-width:24px;height:23px;border-radius:7px;background:#fff0e5;color:#bb6b2b;display:grid;place-items:center;font-size:10px;font-weight:750}.alert-list{display:grid;gap:0;margin-bottom:12px}.alert-item{display:flex;gap:10px;padding:13px 0;border-bottom:1px solid #f0f2f6}.alert-item:last-child{border-bottom:0}.alert-symbol{width:28px;height:28px;display:grid;place-items:center;border-radius:8px;flex-shrink:0;font-weight:800}.alert-symbol.warning{background:#fff4df;color:#c08729}.alert-symbol.danger{background:#ffebee;color:#c33d4d}.alert-symbol.info{background:#edf1ff;color:#4263ce}.alert-copy{min-width:0}.alert-copy strong{font-size:10px;display:block;color:#36435a}.alert-copy p{font-size:9px;line-height:1.5;color:#8c98aa;margin:4px 0 0}.alert-link{border:0;background:transparent;color:#315be8;font-size:9px;font-weight:700;padding:5px 0 0}.full-width{width:100%}.bottom-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.bottom-grid .panel{padding-bottom:18px}.status-chart{display:grid;gap:14px;padding:5px 0 3px}.chart-row{display:grid;grid-template-columns:105px 1fr 22px;align-items:center;gap:10px;font-size:10px;color:#77849a}.chart-track{height:7px;background:#f0f3f8;border-radius:8px;overflow:hidden}.chart-fill{height:100%;border-radius:8px;background:#5374ec}.chart-number{text-align:right;color:#3e4b62;font-weight:700}.compliance-snapshot{display:grid;gap:13px}.compliance-line{display:grid;grid-template-columns:1fr auto;gap:8px;font-size:10px;color:#77849a}.compliance-line strong{color:#3f4c63}.compliance-track{grid-column:1/-1;height:6px;background:#eef2f7;border-radius:7px;overflow:hidden}.compliance-track span{display:block;height:100%;background:#26a779;border-radius:7px}.prototype-disclaimer{text-align:center;color:#a1aabb;font-size:8px;letter-spacing:.65px;padding:20px 0 5px}.prototype-disclaimer span{padding:0 5px;color:#c2c9d4}.applications-toolbar{padding:17px 0 0}.applications-toolbar .search-box{margin-left:0}.compliance-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.compliance-card{background:white;border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow)}.compliance-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px}.compliance-card h3{font-size:13px;margin:0 0 5px}.compliance-card .meta{font-size:10px;color:#8d99ab}.progress-text{font-size:10px;color:#66758c;white-space:nowrap}.progress-track{height:6px;background:#edf1f6;border-radius:7px;margin:13px 0 16px;overflow:hidden}.progress-track span{height:100%;display:block;background:#24a778;border-radius:7px}.document-row{display:flex;align-items:center;gap:9px;border-top:1px solid #f0f2f6;padding:11px 0;font-size:10px;color:#66738a}.document-row input{accent-color:#315be8;width:14px;height:14px}.document-row label{flex:1}.document-state{font-size:9px;color:#a0aaba}.document-state.done{color:#16865b}.all-alerts{padding:0 0 12px}.all-alerts .alert-item{padding:17px 0}.all-alerts .alert-copy p{font-size:11px}.all-alerts .alert-copy strong{font-size:12px}.empty-state{padding:28px 10px;text-align:center;color:#9aa4b4;font-size:11px}.modal-backdrop{position:fixed;inset:0;background:#111c31a8;z-index:20;display:none;align-items:center;justify-content:center;padding:20px}.modal-backdrop.open{display:flex}.modal{width:min(580px,100%);max-height:92vh;overflow:auto;background:white;border-radius:15px;padding:25px;box-shadow:0 20px 80px #0c183b45}.modal-heading{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:22px}.modal-heading h2{font-size:20px;letter-spacing:-.6px}.modal-heading p{font-size:11px;color:#8995a8;margin:7px 0 0}.close-button{border:0;background:#f2f5fa;color:#6e7c91;border-radius:8px;width:30px;height:30px;font-size:23px;line-height:1}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.form-grid label{display:grid;gap:7px;font-size:10px;color:#5f6d83;font-weight:700}.form-grid label.wide{grid-column:1/-1}.form-grid input,.form-grid select{width:100%;height:38px;border:1px solid #e2e7ef;border-radius:7px;padding:0 10px;outline:none;background:white;color:#3c4a60;font-size:11px}.form-grid input:focus,.form-grid select:focus{border-color:#8da3ff;box-shadow:0 0 0 3px #315be812}.modal-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:22px}.form-error{font-size:10px;color:#c33d4d;margin-top:10px}.toast{position:fixed;right:25px;bottom:25px;background:#1b2942;color:white;border-radius:9px;padding:13px 17px;font-size:11px;box-shadow:0 8px 25px #17233b30;z-index:40;opacity:0;transform:translateY(10px);pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:translateY(0)}.muted{color:#9aa4b3;font-size:9px}
-@media(min-width:1500px){.page{padding-left:42px;padding-right:42px}.stat-card{min-height:135px}.stat-value{font-size:31px}}
-@media(max-width:1150px){.sidebar{width:215px}.main{margin-left:215px}.page{padding:25px 22px}.topbar{padding:0 22px}.content-grid{grid-template-columns:1fr}.alerts-panel{display:block}.stat-grid{gap:10px}.stat-card{padding:14px}.stat-foot{font-size:9px}}
-@media(max-width:800px){.sidebar{transform:translateX(-100%);transition:transform .2s;width:246px;box-shadow:10px 0 30px #18243a1a}.sidebar.open{transform:translateX(0)}.main{margin-left:0}.mobile-menu{display:block;border:1px solid var(--line);background:#fff;border-radius:8px;width:32px;height:32px;color:#66738a}.topbar{padding:0 15px;gap:12px}.breadcrumb{margin-right:auto}.system-status{display:none}.page{padding:22px 15px}.page-heading{align-items:flex-start}.page-heading h1{font-size:24px}.subheading{max-width:470px;line-height:1.5}.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.content-grid,.bottom-grid{grid-template-columns:1fr}.compliance-grid{grid-template-columns:1fr}.top-actions{gap:8px}.table-footer{align-items:flex-start;padding:12px 0;line-height:1.5}.panel{padding-left:13px;padding-right:13px}}
-@media(max-width:480px){.page-heading{flex-direction:column}.page-heading>.primary-button,.page-heading>.secondary-button{align-self:stretch}.stat-card{min-height:112px}.stat-value{font-size:25px}.form-grid{grid-template-columns:1fr}.form-grid label.wide{grid-column:auto}.modal{padding:19px}.profile-menu{display:none}.top-avatar{display:none}.toolbar select{max-width:135px}.breadcrumb{font-size:10px}}
+const API = "/api";
+const STATUSES = ["Submitted", "Under Review", "Changes Required", "Approved", "Rejected"];
+let applications = [];
+let alerts = [];
+let currentView = "dashboard";
+let toastTimer;
+
+const $ = (id) => document.getElementById(id);
+const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+}[char]));
+const statusClass = (status) => "status-" + String(status || "").toLowerCase().replace(/\s+/g, "-");
+const statusBadge = (status) => `<span class="status-badge ${statusClass(status)}">${esc(status)}</span>`;
+const dateLabel = (date) => {
+  if (!date) return "—";
+  const d = new Date(`${date}T00:00:00`);
+  return Number.isNaN(d.getTime()) ? esc(date) : d.toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" });
+};
+const daysUntil = (date) => {
+  if (!date) return Infinity;
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.ceil((new Date(`${date}T00:00:00`) - today) / 86400000);
+};
+const institutionIcon = (name) => esc((name || "I").split(/\s+/).filter(Boolean).slice(0,2).map(s=>s[0]).join("").toUpperCase());
+
+async function api(path, options = {}) {
+  const response = await fetch(`${API}${path}`, {
+    headers: { "Content-Type": "application/json", ...(options.headers || {}) },
+    ...options
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(payload.message || `Request failed (${response.status})`);
+  return payload;
+}
+
+function showToast(message) {
+  const toast = $("toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("show"), 2800);
+}
+
+function setView(view) {
+  currentView = view;
+  document.querySelectorAll(".page").forEach((page) => page.classList.remove("active-page"));
+  $(`${view}Page`).classList.add("active-page");
+  document.querySelectorAll(".nav-item").forEach((button) => button.classList.toggle("active", button.dataset.view === view));
+  $("breadcrumbTitle").textContent = ({dashboard:"Overview", applications:"Applications", compliance:"Compliance", alerts:"Alert centre"})[view];
+  $("sidebar").classList.remove("open");
+  if (view === "applications") renderAllApplications();
+  if (view === "compliance") renderCompliance();
+  if (view === "alerts") renderAllAlerts();
+}
+
+function renderStats() {
+  const pending = applications.filter(a => ["Submitted","Under Review","Changes Required"].includes(a.status)).length;
+  $("statTotal").textContent = applications.length;
+  $("statPending").textContent = pending;
+  $("statApproved").textContent = applications.filter(a => a.status === "Approved").length;
+  $("statAlerts").textContent = alerts.length;
+  $("navPending").textContent = pending;
+  $("navAlerts").textContent = alerts.length;
+  $("alertPill").textContent = alerts.length;
+  $("alertIndicator").style.display = alerts.length ? "block" : "none";
+  const counts = STATUSES.map(status => ({status,count:applications.filter(a=>a.status===status).length}));
+  const colors = {"Submitted":"#e6aa45","Under Review":"#5474ec","Changes Required":"#e28a50","Approved":"#2baa7b","Rejected":"#d45c69"};
+  $("statusChart").innerHTML = counts.map(item => `<div class="chart-row"><span>${esc(item.status)}</span><div class="chart-track"><div class="chart-fill" style="width:${applications.length ? item.count/applications.length*100 : 0}%;background:${colors[item.status]}"></div></div><span class="chart-number">${item.count}</span></div>`).join("");
+  const docs = applications.flatMap(a => a.documents || []);
+  const complete = docs.filter(d => d.uploaded).length;
+  const percentage = docs.length ? Math.round(complete/docs.length*100) : 0;
+  $("complianceSnapshot").innerHTML = `<div class="compliance-line"><span>Required documents completed</span><strong>${percentage}%</strong><div class="compliance-track"><span style="width:${percentage}%"></span></div></div><div class="compliance-line"><span>Documents received</span><strong>${complete} / ${docs.length}</strong></div><div class="compliance-line"><span>Applications with gaps</span><strong>${applications.filter(a=>(a.documents||[]).some(d=>!d.uploaded)).length}</strong></div>`;
+}
+
+function applicationRow(a, expanded = false) {
+  const d = daysUntil(a.deadline);
+  const urgent = d <= 7 && !["Approved","Rejected"].includes(a.status);
+  const institution = `<div class="institution-cell"><div class="institution-icon">${institutionIcon(a.institution)}</div><div><strong title="${esc(a.institution)}">${esc(a.institution)}</strong><span>${esc(a.state || "State not set")}</span></div></div>`;
+  if (!expanded) return `<tr><td>${institution}</td><td class="id-cell">${esc(a.applicationId)}</td><td>${statusBadge(a.status)}</td><td><span class="deadline ${urgent?"urgent":""}">${dateLabel(a.deadline)}</span></td><td><button class="row-action" data-action="details" data-id="${esc(a.applicationId)}" title="View details">⋯</button></td></tr>`;
+  const options = STATUSES.map(s => `<option ${s===a.status?"selected":""}>${esc(s)}</option>`).join("");
+  return `<tr><td>${institution}</td><td class="id-cell">${esc(a.applicationId)}</td><td>${esc(a.applicationType)}</td><td>${dateLabel(a.submittedAt)}</td><td><span class="deadline ${urgent?"urgent":""}">${dateLabel(a.deadline)}</span></td><td><select class="inline-status" data-action="status" data-id="${esc(a.applicationId)}" aria-label="Change status for ${esc(a.applicationId)}">${options}</select></td><td><button class="row-action" data-action="details" data-id="${esc(a.applicationId)}" title="View details">⋯</button></td></tr>`;
+}
+
+function filterApplications(search, status) {
+  const term = (search || "").trim().toLowerCase();
+  return applications.filter(a => (status === "All" || a.status === status) &&
+    [a.applicationId,a.institution,a.state,a.applicationType].some(value=>String(value||"").toLowerCase().includes(term)));
+}
+
+function renderDashboardTable() {
+  const list = filterApplications($("dashboardSearch").value, $("dashboardStatus").value).slice(0,5);
+  $("dashboardTable").innerHTML = list.length ? list.map(a=>applicationRow(a)).join("") : `<tr><td colspan="5"><div class="empty-state">No matching applications found.</div></td></tr>`;
+  $("dashboardCount").textContent = `Showing ${list.length} of ${applications.length} applications`;
+}
+
+function renderAllApplications() {
+  const list = filterApplications($("allSearch").value, $("allStatus").value);
+  $("allApplicationsTable").innerHTML = list.length ? list.map(a=>applicationRow(a,true)).join("") : `<tr><td colspan="7"><div class="empty-state">No matching applications found.</div></td></tr>`;
+  $("allCount").textContent = `${list.length} application${list.length===1?"":"s"} shown`;
+}
+
+function alertMarkup(item) {
+  const kind = item.type === "danger" ? "danger" : item.type === "warning" ? "warning" : "info";
+  const symbol = kind === "danger" ? "!" : kind === "warning" ? "◷" : "i";
+  return `<div class="alert-item"><div class="alert-symbol ${kind}">${symbol}</div><div class="alert-copy"><strong>${esc(item.title)}</strong><p>${esc(item.message)}</p><button class="alert-link" data-action="details" data-id="${esc(item.applicationId)}">Review application →</button></div></div>`;
+}
+
+function renderDashboardAlerts() {
+  $("dashboardAlerts").innerHTML = alerts.length ? alerts.slice(0,4).map(alertMarkup).join("") : `<div class="empty-state">No active alerts. You're all caught up.</div>`;
+}
+
+function renderAllAlerts() {
+  $("allAlerts").innerHTML = alerts.length ? alerts.map(alertMarkup).join("") : `<div class="empty-state">No active alerts. All sample records are complete and within deadline.</div>`;
+}
+
+function renderCompliance() {
+  $("complianceCards").innerHTML = applications.map(a => {
+    const docs = a.documents || [];
+    const completed = docs.filter(d=>d.uploaded).length;
+    const percent = docs.length ? Math.round(completed/docs.length*100) : 0;
+    const rows = docs.map((doc,index)=>`<div class="document-row"><input type="checkbox" id="doc-${esc(a.applicationId)}-${index}" data-action="document" data-id="${esc(a.applicationId)}" data-index="${index}" ${doc.uploaded?"checked":""}><label for="doc-${esc(a.applicationId)}-${index}">${esc(doc.name)}</label><span class="document-state ${doc.uploaded?"done":""}">${doc.uploaded?"Received":"Missing"}</span></div>`).join("");
+    return `<article class="compliance-card"><div class="compliance-card-head"><div><h3>${esc(a.institution)}</h3><div class="meta">${esc(a.applicationId)} · ${esc(a.applicationType)}</div></div>${statusBadge(a.status)}</div><div class="progress-text">${completed} of ${docs.length} documents received <strong style="float:right">${percent}%</strong></div><div class="progress-track"><span style="width:${percent}%"></span></div>${rows}</article>`;
+  }).join("") || `<div class="empty-state">No applications to review.</div>`;
+}
+
+async function refreshData() {
+  try {
+    const [health, appData, alertData] = await Promise.all([api("/health"), api("/applications"), api("/alerts")]);
+    applications = appData;
+    alerts = alertData;
+    $("systemStatus").textContent = health.database === "mongo" ? "MongoDB connected" : "Local database connected";
+    $("systemStatus").previousElementSibling.style.background = "#38bd8c";
+    renderStats(); renderDashboardTable(); renderDashboardAlerts();
+    if (currentView === "applications") renderAllApplications();
+    if (currentView === "compliance") renderCompliance();
+    if (currentView === "alerts") renderAllAlerts();
+  } catch (error) {
+    $("systemStatus").textContent = "Backend unavailable";
+    $("systemStatus").previousElementSibling.style.background = "#e05262";
+    showToast("Cannot reach backend. Start the server with npm run dev.");
+    console.error(error);
+  }
+}
+
+function openModal() {
+  $("formError").textContent = "";
+  $("applicationForm").reset();
+  const d = new Date(); d.setDate(d.getDate()+14);
+  $("applicationForm").elements.deadline.value = d.toISOString().slice(0,10);
+  $("applicationModal").classList.add("open");
+  $("applicationModal").setAttribute("aria-hidden","false");
+}
+function closeModal() {
+  $("applicationModal").classList.remove("open");
+  $("applicationModal").setAttribute("aria-hidden","true");
+}
+
+async function openDetails(id) {
+  const app = applications.find(a=>a.applicationId===id);
+  if (!app) return;
+  const docs = (app.documents||[]).map(d=>`${d.uploaded?"✓":"○"} ${d.name}`).join("\n");
+  const next = prompt(
+    `Application: ${app.institution}\nID: ${app.applicationId}\nType: ${app.applicationType}\nState: ${app.state}\nDeadline: ${app.deadline}\n\nDocuments:\n${docs}\n\nEnter a new status exactly as listed, or leave blank to cancel:\n${STATUSES.join(" | ")}`,
+    app.status
+  );
+  if (next === null || !next.trim() || next.trim() === app.status) return;
+  if (!STATUSES.includes(next.trim())) { showToast("Choose one of the listed statuses."); return; }
+  try {
+    await api(`/applications/${encodeURIComponent(id)}`, {method:"PATCH", body:JSON.stringify({status:next.trim()})});
+    await refreshData(); showToast("Application status updated.");
+  } catch (error) { showToast(error.message); }
+}
+
+document.querySelectorAll(".nav-item").forEach(button=>button.addEventListener("click",()=>setView(button.dataset.view)));
+document.querySelectorAll("[data-go]").forEach(button=>button.addEventListener("click",()=>setView(button.dataset.go)));
+$("newApplicationBtn").addEventListener("click",openModal);
+$("newApplicationBtn2").addEventListener("click",openModal);
+$("closeModal").addEventListener("click",closeModal);
+$("cancelModal").addEventListener("click",closeModal);
+$("applicationModal").addEventListener("click",event=>{if(event.target===$("applicationModal"))closeModal();});
+$("topAlerts").addEventListener("click",()=>setView("alerts"));
+$("refreshAlerts").addEventListener("click",async()=>{await refreshData();showToast("Alerts refreshed.");});
+$("mobileMenu").addEventListener("click",()=>$("sidebar").classList.toggle("open"));
+$("dashboardSearch").addEventListener("input",renderDashboardTable);
+$("dashboardStatus").addEventListener("change",renderDashboardTable);
+$("allSearch").addEventListener("input",renderAllApplications);
+$("allStatus").addEventListener("change",renderAllApplications);
+
+document.addEventListener("click",event=>{
+  const button=event.target.closest("[data-action='details']");
+  if(button) openDetails(button.dataset.id);
+});
+document.addEventListener("change",async event=>{
+  const target=event.target;
+  if(target.matches("[data-action='status']")){
+    try {
+      await api(`/applications/${encodeURIComponent(target.dataset.id)}`,{method:"PATCH",body:JSON.stringify({status:target.value})});
+      await refreshData(); showToast("Application status saved.");
+    } catch(error){showToast(error.message);await refreshData();}
+  }
+  if(target.matches("[data-action='document']")){
+    const app=applications.find(a=>a.applicationId===target.dataset.id);
+    if(!app)return;
+    const docs=app.documents.map(d=>({...d}));
+    docs[Number(target.dataset.index)].uploaded=target.checked;
+    try {
+      await api(`/applications/${encodeURIComponent(app.applicationId)}`,{method:"PATCH",body:JSON.stringify({documents:docs})});
+      await refreshData(); showToast("Compliance checklist updated.");
+    } catch(error){showToast(error.message);await refreshData();}
+  }
+});
+
+$("applicationForm").addEventListener("submit",async event=>{
+  event.preventDefault();
+  const form=event.currentTarget;
+  const data=Object.fromEntries(new FormData(form).entries());
+  const button=$("submitApplication");
+  button.disabled=true;button.textContent="Creating…";$("formError").textContent="";
+  try {
+    const created=await api("/applications",{method:"POST",body:JSON.stringify(data)});
+    closeModal();await refreshData();setView("applications");
+    showToast(`Created ${created.applicationId}`);
+  } catch(error) {$("formError").textContent=error.message;}
+  finally {button.disabled=false;button.textContent="Create application";}
+});
+
+refreshData();
